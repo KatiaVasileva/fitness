@@ -8,6 +8,9 @@ export default {
     container: {
       center: true,
     },
+      fontFamily: {
+        "sans": ["Roboto", "sans-serif"],
+      },
     extend: {
       colors: {
         "gray": "#999999",
