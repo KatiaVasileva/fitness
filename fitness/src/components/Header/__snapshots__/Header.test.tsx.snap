@@ -6,20 +6,20 @@ exports[`Header component renders correctly 1`] = `
     class="container mx-auto"
   >
     <div
-      class="h-50 flex flex-row items-center place-content-between mb-4"
+      class="h-50 flex flex-row items-center place-content-between mb-3"
     >
       <img
         class="w-55"
         src="/img/logo.png"
       />
       <button
-        class="bg-green w-26 h-13 text-black hover:bg-light-green"
+        class="btn-primary md:w-26 md:h-13"
       >
         Войти
       </button>
     </div>
     <p
-      class="text-lg/5 font-normal text-gray"
+      class="invisible md:visible md:text-lg/5 md:font-normal  md:text-gray "
     >
       Онлайн-тренировки для занятий дома
     </p>
